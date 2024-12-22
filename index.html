@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Review our site</h2>
+        <form id="contactForm" action="https://formsubmit.co/kesemm74@gmail.com" method="POST">
+            <!-- Your custom form fields -->
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <!-- Hidden fields for IP and browser details -->
+            <input type="hidden" id="ipAddress" name="ipAddress">
+            <input type="hidden" id="browserName" name="browserName">
+            <input type="hidden" id="browserVersion" name="browserVersion">
+            <input type="hidden" id="userAgent" name="userAgent">
+            <input type="hidden" id="platform" name="platform">
+            <input type="hidden" id="screenWidth" name="screenWidth">
+            <input type="hidden" id="screenHeight" name="screenHeight">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>
