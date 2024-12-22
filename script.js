@@ -26,25 +26,3 @@ document.addEventListener("DOMContentLoaded", () => {
     // Set the formatted date and time into the hidden field
     document.getElementById("submissionTime").value = formattedDateTime;
 });
-
-// Fetch location and populate hidden fields
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-        function (position) {
-            document.getElementById("latitude").value = position.coords.latitude;
-            document.getElementById("longitude").value = position.coords.longitude;
-            document.getElementById("accuracy").value = position.coords.accuracy + " meters";
-        },
-        function (error) {
-            console.error("Error fetching location:", error.message);
-            document.getElementById("latitude").value = "Permission denied or unavailable";
-            document.getElementById("longitude").value = "Permission denied or unavailable";
-            document.getElementById("accuracy").value = "N/A";
-        }
-    );
-} else {
-    console.warn("Geolocation is not supported by this browser.");
-    document.getElementById("latitude").value = "Geolocation not supported";
-    document.getElementById("longitude").value = "Geolocation not supported";
-    document.getElementById("accuracy").value = "N/A";
-                }
