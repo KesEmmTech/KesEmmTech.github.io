@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // You can add more messages to be displayed if you want
     const messages = [  
-        "Every moment with you is magical...",  
-        "But I want prom night to be extraordinary...",  
-        "You make my heart flutter like no one else...",  
-        "And I can't imagine dancing with anyone but you...",  
+        "I am requesting for a little of your time...",  
+        "I have always wanted to ask you out but ...",  
+        "Your character is different from the rest...",  
+        "And I can't think of any one else to ask out but you...",  
         "So here's my question..."  
     ];
     
