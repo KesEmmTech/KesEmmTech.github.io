@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Your personality is different from the rest...", 
         "And I can't think of any one else to ask out but you...", 
         "I may not stand a chance though but any way...",
+        "what could be better than spending it with you...",
         "Here's my question..."  
     ];
     
