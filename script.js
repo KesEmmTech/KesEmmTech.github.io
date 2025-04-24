@@ -7,9 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const messages = [  
         "I am requesting for a little of your time...",  
         "I have always wanted to ask you out but ...",  
-        "Your character is different from the rest...",  
-        "And I can't think of any one else to ask out but you...",  
-        "So here's my question..."  
+        "I have always been scared of confronting you directly...",
+        "Your personality is different from the rest...", 
+        "And I can't think of any one else to ask out but you...", 
+        "I may not stand a chance though but any way...",
+        "Here's my question..."  
     ];
     
     createHearts();
