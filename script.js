@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('namePlaceholder').textContent = "Leticia";//Replace Leticia with name of prom date
+    document.getElementById('namePlaceholder').textContent = "Rosemary";//Replace Leticia with name of prom date
     
     const promDate = new Date(2025, 5, 7);
     
